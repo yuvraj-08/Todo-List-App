@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Barlow:wght@300&family=Carter+One&family=Kings&family=Kiwi+Maru&family=Kranky&family=Signika+Negative&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::placeholder {
+  color: #fff;
+
+  font-family: 'Signika Negative', sans-serif;
+}
+body {
+  font-family: 'Carter One', cursive;
+  background-color: #3f1d38;
+  /* */
+  color: rgb(235, 233, 233);
+}
+
+.container {
+  max-width: 80%;
+  margin: 20px auto 0 auto;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0;
+  color: #dac0a3;
+}
+
+form {
+  text-align: center;
+}
+
+form input[type='text'] {
+  padding: 7px;
+  border-radius: 10px;
+  width: 50%;
+  height: 38px;
+  margin-bottom: 20px;
+  background-color: #a2678a;
+  color: rgb(255, 255, 255);
+}
+
+.Add-Button {
+  width: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.divider {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+hr {
+  width: 100%;
+  margin: auto auto 20px auto;
+  position: relative;
+  top: 8px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.to-do-title-container {
+  width: 50%;
+  text-align: left;
+}
+.button-container {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+button {
+  font-family: 'Signika Negative', sans-serif;
+  padding: 5px 10px;
+  /* background-color: #72a39b; */
+  background-color: #4d3c77;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-family: 'Signika Negative', sans-serif;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+@media screen and (max-width: 480px) {
+  .button-container {
+    width: 30%;
+  }
+  .button-container button {
+    margin-left: 8px;
+  }
+  .to-do-title-container {
+    width: 60%;
+  }
+  footer {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .button-container {
+    flex-direction: column;
+  }
+  .button-container button {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
