@@ -1,7 +1,7 @@
 # To-Do List App with React
 
-Welcome to the To-Do List App repository! This project is a simple yet powerful To-Do List application built using React. With this app, you can add, update, and delete tasks effortlessly. It's a great example for beginners learning React or anyone looking to build a basic web application.
-
+Welcome to the To-Do List App repository! This project is a simple yet powerful To-Do List application built using React. With this app, you can add, update, and delete tasks effortlessly. It's a great example for beginners learning React or anyone looking to build a basic web application. <br> <br>
+![To-Do List UI](https://i.ibb.co/BTcHbSy/To-Do-List-App.png)
 ## Table of Contents
 
 - [Demo](#demo)
